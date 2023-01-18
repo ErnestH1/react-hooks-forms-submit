@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Form(props) {
   const [firstName, setFirstName] = useState("John ");
-  const [lastName, setLastName] = useState("Henry");
+  const [lastName, setLastName] = useState("Doe");
   const [submittedData, setSubmittedData] = useState([]);
 
   function handleFirstNameChange(event) {
